@@ -150,6 +150,8 @@ EOF  all  create  destroy  help  quit  show  update
 (hbnb) quit
 ```
 
+The third version of Airbnb clone project is to make the website communicate with the client.
+
 ## Bugs
 No known bugs at this time. 
 
