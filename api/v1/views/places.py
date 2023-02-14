@@ -121,8 +121,7 @@ def put_place(place_id):
 @swag_from('documentation/place/post_search.yml', methods=['POST'])
 def places_search():
     """
-    Retrieves all Place objects depending of the JSON in the body
-    of the request
+    Retrieves all Place objects depending of the JSON in the body of the request
     """
 
     if request.get_json() is None:
